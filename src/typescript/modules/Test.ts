@@ -7,8 +7,7 @@ export default class Test {
   constructor(el: HTMLElement) {
     this._el = el;
     this._dom = {};
-    console.log("test");
-    
+
 
     this._grabDom();
     this._addEvents();
